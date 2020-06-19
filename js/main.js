@@ -10,7 +10,7 @@ $(document).ready(function () {
   tab.on("click", function () {
     tab.removeClass("active");
     $(this).toggleClass("active");
-    let activeTabContent = $(this).attr("data - target");
+    let activeTabContent = $(this).attr("data-target");
     $(".tabs-content").removeClass("visible");
     $(activeTabContent).toggleClass("visible");
   });
